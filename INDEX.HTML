@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLUCIONES SOLRAC - Maquinados Industriales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación con logotipo -->
+    <header>
+        <div class="logo-nav">
+            <img src="logo.png" alt="Logo de SOLUCIONES SOLRAC" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <div class="intro">
+            <h1>Bienvenidos a SOLUCIONES SOLRAC</h1>
+            <p>Tu aliado en maquinados industriales de alta precisión</p>
+        </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="servicios-lista">
+            <div class="servicio">
+                <h3>Fresado</h3>
+                <p>Maquinado de piezas mediante fresado de alta precisión.</p>
+            </div>
+            <div class="servicio">
+                <h3>Torneado</h3>
+                <p>Fabricación de piezas mediante torno CNC.</p>
+            </div>
+            <div class="servicio">
+                <h3>Soldadura</h3>
+                <p>Soldadura de alta calidad para piezas industriales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de nosotros -->
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>En SOLUCIONES SOLRAC somos expertos en maquinados industriales. Contamos con tecnología de punta y un equipo altamente calificado para ofrecer soluciones a la medida de tus necesidades.</p>
+        <p>Estamos ubicados en <strong>Mexicali, Baja California</strong>, brindando servicios a toda la región y más allá.</p>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="https://formsubmit.co/jcmojica32@gmail.com" method="POST">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="correo" placeholder="Tu correo" required>
+            <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+
+            <!-- Evita captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            <!-- Redirección tras envío exitoso (puedes cambiar la URL si quieres una página de gracias) -->
+            <input type="hidden" name="_next" value="https://formsubmit.co/thanks.html">
+
+            <button type="submit">Enviar</button>
+        </form>
+        <p>También puedes contactarnos al correo: <strong>info@solucionesolrac.com</strong> o al teléfono: <strong>+52 6863885862</strong>.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SOLUCIONES SOLRAC. Todos los derechos reservados.</p>
+        <p>Ubicación: Mexicali, Baja California</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
